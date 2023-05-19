@@ -1,0 +1,30 @@
+﻿<Window x:Class="PR8Libs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR8Libs"
+        xmlns:product="clr-namespace:ProductCard;assembly=ProductCard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="105*"/>
+            <RowDefinition Height="115*"/>
+            <RowDefinition Height="67*"/>
+            <RowDefinition Height="106*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Серелиазицая\десереализация" VerticalAlignment="Stretch" TextAlignment="Center"/>
+        <TextBox x:Name="textblock1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center"/>
+        <Button x:Name="serbtn" Content="Сереализовать" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="center" Margin="20,0,20,0" Click="serbtn_Click"/>
+        <Button x:Name="deserbtn" Content="Десереализовать" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="center" Margin="20,0,20,0" Click="deserbtn_Click"/>
+        <product:product Grid.Column="1"  Grid.RowSpan="3"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFD0D0D0" Margin="10,10,10,10"/>
+        <product:Users Grid.Column="1" Grid.Row="3" Background="#FF59C6FF" Margin="10,10,10,10" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>

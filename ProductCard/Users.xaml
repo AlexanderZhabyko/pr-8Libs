@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="ProductCard.Users"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProductCard"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="257*"/>
+        </Grid.ColumnDefinitions>
+        <CheckBox x:Name="checkbx" HorizontalAlignment="Center" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center"/>
+        <Border BorderThickness="1" Grid.Column="1" Margin="10,2,10,2" BorderBrush="Black">
+            <TextBlock x:Name="text1"  HorizontalAlignment="Stretch"  TextWrapping="Wrap" Text="Имя" VerticalAlignment="Stretch" Margin="10,2,10,2" TextAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Grid.Column="1" Margin="10,2,10,2" Grid.Row="1" BorderBrush="Black">
+            <TextBlock x:Name="text2"  HorizontalAlignment="Stretch"  TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Stretch"  Margin="10,2,10,2" TextAlignment="Center"/>
+
+        </Border>
+        <Border BorderThickness="1" Grid.Column="1" Margin="10,2,10,2" Grid.Row="2" BorderBrush="Black">
+            <TextBlock x:Name="text3" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Отдел" VerticalAlignment="Stretch"  Margin="10,2,10,2" TextAlignment="Center"/>
+
+        </Border>
+        <Border BorderThickness="1" Grid.Column="1" Margin="10,2,10,2" Grid.Row="3" BorderBrush="Black">
+            <TextBlock x:Name="text4" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Должность" VerticalAlignment="Stretch"  Margin="10,2,10,2" TextAlignment="Center"/>
+        </Border>
+        
+
+    </Grid>
+</UserControl>

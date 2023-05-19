@@ -1,0 +1,12 @@
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\bin\Debug\net6.0\DerSerLib.deps.json
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\bin\Debug\net6.0\DerSerLib.dll
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\bin\Debug\net6.0\DerSerLib.pdb
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.csproj.AssemblyReference.cache
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.AssemblyInfoInputs.cache
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.AssemblyInfo.cs
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.csproj.CoreCompileInputs.cache
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.dll
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\refint\DerSerLib.dll
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\DerSerLib.pdb
+C:\Users\zhaby\Documents\c#\PR8Libs\DerSerLib\obj\Debug\net6.0\ref\DerSerLib.dll
